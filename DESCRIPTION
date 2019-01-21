@@ -1,0 +1,14 @@
+Package: OptimalCutpointsCI
+Type: Package
+Title: Bootstrap Confidence Intervals for the Optimal Cutoff Point with Logistic Regression
+Version: 0.1.0
+Author: Xiaogang Su
+Maintainer: Xiaogang Su <xiaogang.su@gmail.com>
+Description: This package is built on basis of the R package OptimalCutpoint and provides four sets of bootstrap-based confidence intervals for the estimated optimal cutpoint with logistic regression (Zhang, et al., 2019). These include bootstrap CI and percentile CI for the optimal cutpoint, as well as the infinitesimal jackknife (IJ)-based CI and its bias-corrected version for the bagging estimate of the best cutpoint. The use of the bias-corrected IJ confidence intervals is advocated. 
+Depends:
+    R (>= 3.1.0), stats (>= 3.2.5), graphics (>= 3.2.5), utils  (>= 3.2.5)
+Imports: OptimalCutpoints
+LazyData: true 
+License: GPL (>= 2) 
+Encoding: UTF-8
+RoxygenNote: 6.1.1
